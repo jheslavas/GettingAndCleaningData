@@ -57,6 +57,8 @@ The original experiment was "carried out with a group of 30 volunteers within an
 
 - The "tidydataset.txt": a dataset of 81 variables and 180 rows, showing the averages of means and standar deviations of each variable for each activity and each subject, of lineal and angular acceleration measurements, that are better described at the "CodeBook.md"
 
+- The run_analysis.R script file, with the codes for getting, cleaning and subsetting files, acording with the instructions of the assignment 
+
 
 ### Notes:
 ======
