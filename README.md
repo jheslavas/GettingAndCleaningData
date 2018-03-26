@@ -8,7 +8,7 @@ activityrecognition@smartlab.ws
 www.smartlab.ws
 
 ==================================================================
-This document was written by Javier Eslava-Schmalbach
+### This document was written by Javier Eslava-Schmalbach
 ==================================================================
 
 This document describes the associated file: "run_analysis.R", that is the script of the analysis done to the databases associated with the original experiment performed by authors mentioned before: "Human Activity Recognition Using Smartphones". 
@@ -39,7 +39,7 @@ The original experiment was "carried out with a group of 30 volunteers within an
 
 "The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details" (text between quotes, from original authors)
 
-For each record it is provided:
+## For each record it is provided:
 ======================================
 - An identifier of the subject who carried out the experiment.
 - Its activity label.
@@ -48,7 +48,7 @@ For each record it is provided:
 
 
 
-The dataset includes the following files:
+## The dataset includes the following files:
 =========================================
 
 - The "README.txt" file
@@ -58,20 +58,20 @@ The dataset includes the following files:
 - The "tidydataset.txt": a dataset of 81 variables and 180 rows, showing the averages of means and standar deviations of each variable for each activity and each subject, of lineal and angular acceleration measurements, that are better described at the "CodeBook.md"
 
 
-Notes:
+### Notes:
 ======
 - Measurement were previously normalized and bounded within [-1,1], by original authors of the experiment
 
 Original authors could be contacted for more information about this dataset at: activityrecognition@smartlab.ws
 
-License: (Note from original authors)
+### License: (Note from original authors)
 ========
 "Use of this dataset in publications must be acknowledged by referencing the following publication" [1]
 
 "[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012"
 
 ========
-This file was developed by Javier Eslava-Schmalbach, as an assingment of the course: "Data Science: Getting and Cleaning Data" at Coursera - Jhons Hopkins University. 
+### This file was developed by Javier Eslava-Schmalbach, as an assingment of the course: "Data Science: Getting and Cleaning Data" at Coursera - Jhons Hopkins University. 
 
 
 
